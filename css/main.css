@@ -60,6 +60,27 @@ p {
     margin: auto;
     max-width: 950px;
 }
+/* Header and Logo */
+.header-container {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#topheader h1 {
+    font-size: 2em;
+    color: #f5f3fd;
+    background: #aaaaaa;
+    width: 100%;
+    text-align: center;
+    padding: 0.325em 0 0.35em 0;
+}
+
+#hamburger {
+    position: absolute;
+    background: #c09f89;
+}
+
 
 /* header */
 header {

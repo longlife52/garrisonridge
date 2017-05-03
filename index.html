@@ -9,7 +9,10 @@
 
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow" rel="stylesheet">
         <meta name="description" content="Producer/Writer, Lisa Long, creates award-winning web, video, print and live event content."/>
-
+        <!--This is for the sliding mmenu-->
+        <link href="css/jquery.mmenu.all.css" rel="stylesheet"/>
+        <!--for animating hamburger menu -->
+        <link href="css/hamburgers.min.css" rel="stylesheet"/>
         <!--this is for lightbox -->
         <link href="css/lightbox.css" rel="stylesheet">
         <!-- fancyBox -->
@@ -45,8 +48,25 @@
                         <a href="#how">How?</a>
                     </li>
                 </ul>
-
             </nav>
+
+            <header class="container group">
+                <div class="header-container group">
+                    <div id="hamburger" class="group container">
+                        <button id="menu-button" class="hamburger hamburger--collapse" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div id="topheader" class="group container">
+                        <h1 class="container">Garrison Ridge</h1>
+                    </div>
+                </div>
+            </header>
+<!--
+        </header>
             <header .container .group>
                 <div id="headername">
                     <h1>Garrison Ridge</h1>
@@ -56,6 +76,8 @@
                     <img src="images/grcolorlogo.png" alt="Garrison Ridge Logo" title="Garrison Ridge Logo"/>
                 </div>
             </header>
+-->
+
 <!--
             <nav>
                 <ul>
@@ -204,6 +226,7 @@
 
         <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 
+        <script src="js/jquery.mmenu.min.js"></script>
         <script src="../garrisonridge/fancybox/source/jquery.fancybox.pack.js"></script>
         <script src="js/lightbox.js"></script>
         <script src="js/smoothscroll.js"></script>
