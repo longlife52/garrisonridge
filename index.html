@@ -2,291 +2,229 @@
 <html>
 
     <head>
-    <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Garrison Ridge | web, video, print, live event, story tellers</title>
+        <link rel="shortcut icon" href="images/grcolorlogo.png" type="image/png"/>
 
-    <title>GarrisonRidge</title>
-    <link rel="shortcut icon" href="images/grcolorlogo.png" type="image/png"/>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow" rel="stylesheet">
+        <meta name="description" content="Producer/Writer, Lisa Long, creates award-winning web, video, print and live event content."/>
 
-    <link rel="stylesheet" href="css/styles.css"/>
+        <!--this is for lightbox -->
+        <link href="css/lightbox.css" rel="stylesheet">
+        <!-- fancyBox -->
+        <link rel="stylesheet" href="../garrisonridge/fancybox/source/jquery.fancybox.css"/>
+        <!--this is the shiv for HTML5; yep, it's a comment below -->
 
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script
+        src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
+        <![endif]-->
 
-    <!-- javascript for smooth scroll -->
+        <!-- below is helpful code for IE 8 to play full screen video - also coded a line in CSS -->
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
-
-    <!--this is for lightbox -->
-
-    <link href="css/lightbox.css" rel="stylesheet">
-
-    <!-- this is for fancy box -->
-
-        <!-- Add jQuery library -->
-    <script type="text/javascript" src="../garrisonridge/fancybox/lib/jquery-1.10.1.min.js"></script>
-
-    <!-- Add mousewheel plugin (this is optional) -->
-    <script type="text/javascript" src="../garrisonridge/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="../garrisonridge/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="../garrisonridge/fancybox/source/jquery.fancybox.pack.js"></script>
-
-    <script>
-    $(document).ready(function() {
-
-    $('.fancybox').fancybox({
-    openEffect  : 'elastic',
-    closeEffect : 'elastic',
-    helpers : {
-    media : {}
-    }
-    });
-    });
-    </script>
-
-    <!--this is the shiv for HTML5; yep, it's a comment below -->
-
-    <!--[if lt IE 9]>
-    <script
-    src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
-    </script>
-    <![endif]-->
-
-    <!-- below is helpful code for IE 8 to play full screen video - also coded a line in CSS -->
-
-    <!--[if lt IE 9]>
-    <script>
-    document.createElement('video');
-    </script>
-    <![endif]-->
-
-    <meta name="keywords" content="producer, writer, television, video, print, web, internet, jacksonville, florida"/>
-
-    <meta name="description" content="Producer and writer, Lisa Long, creates award-winning television, video, web and print based content."/>
+        <!--[if lt IE 9]>
+        <script>
+        document.createElement('video');
+        </script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/styles.css"/>
     </head>
 
     <body>
+        <div id="container">
 
-    <div id="container">
+        <header>
+            <div id="headername">
+                <h3>Garrison Ridge</h3>
+            </div>
 
-    <header>
-    <div id="headername">
-    <h3>Garrison Ridge</h3>
-    </div>
+            <div id="headerlogo">
+                <img src="images/grcolorlogo.png" alt="Garrison Ridge Logo" title="Garrison Ridge Logo"/>
+            </div>
+        </header>
 
-    <div id="headerlogo">
-    <img src="images/grcolorlogo.png" alt="Garrison Ridge Logo" title="Garrison Ridge Logo" width=80px/>
-    </div>
-    </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="smoothScroll">Welcome</a>
+                </li>
+                <li>
+                    <a href="#who" class="smoothScroll">Who?</a>
+                </li>
+                <li>
+                    <a href="#what" class="smoothScroll">What?</a>
+                </li>
+                <li>
+                    <a href="#how" class="smoothScroll">How?</a>
+                </li>
+            </ul>
+        </nav>
 
-    <nav>
-    <ul>
-    <li><a href="index.html" class="smoothScroll">Welcome</a>
-    </li>
-    <li><a href="#who" class="smoothScroll">Who?</a>
-    </li>
-    <li><a href="#what" class="smoothScroll">What?</a>
-    </li>
-    <li><a href="#how" class="smoothScroll">How?</a>
-    </li>
-    </ul>
-    </nav>
+        <div id="openpix">
+            <img src="images/ideaslife.jpg" alt="Ideas Brought to Life" title="Ideas Brought to Life"/>
+        </div>
 
-    <div id="openpix">
-    <img src="images/ideaslife.jpg" alt="Ideas Brought to Life" title="Ideas Brought to Life" width="960px"/>
-    </div>
+        <div id="orangedivider">
+            <h3 id="who">Video &nbsp;&nbsp; Print &nbsp;&nbsp; Online &nbsp;&nbsp; Live Event</h3>
+            <h4>Creating emotional connections with uplifting content.</h4>
+        </div>
 
-    <!--<div id="openvid">
-    animation https://www.kirupa.com/html5/simple_text_fade_and_scale_animation.html-->
+        <side>
+            <p>
+                <img src="images/lisastoop.jpg" alt="Lisa Long, producer and writer for web, video, print and live events." title="Lisa Long, producer and writer fro web, video, print and live events."/>
+            </p>
 
-    <!-- the poster below "images/garrisonridgepreview.jpg" came from easyhtml5video.com; it converted the first frame of my video to a jpeg. found jpeg in folder that app provided with all the files in it; later reconverted video via wondershare video which i paid for and is now on laptop hard drive
+        <a class="fancybox fancybox.iframe" href="pdf/lisaresumewriter.pdf"><img src="images/resumebutton.jpg"  class="resumebutton" alt="Resume" title="Resume" width="200px"/></a>
 
+        <p><img src="images/grcolorlogo.png" class="logorightplace" alt="Garrison Ridge Logo" title="Garrison Ridge Logo" width=40px/></p>
+        </side>
 
-    <video playsinline autoplay muted loop poster="images/garrisonridgepreview.jpg" id="bvid">
-    <source src="video/garrisonridgepreview.webm" type="video/webm">
-    <source src="video/garrisonridgepreview.mp4" type="video/mp4">
+        <article>
+        <p>Garrison Ridge is a collection of creative talent led by Producer/Writer, Lisa Long. Since 1995, Garrison Ridge has created award-winning television and video programs as well as print and web products.</p>
 
-    <source src="video/garrisonridgepreview.ogv" type="video/ogv">
-    <object type="application/x-shockwave-flash" data="video/garrisonridgepreview.swf" width="825" height="600" id="garrisonridgepreview" style="float: none; vertical-align:middle">
-    <param name="movie" value="garrisonridgepreview.swf" />
-    <param name="quality" value="high" />
-    <param name="bgcolor" value="#ffffff" />
-    <param name="play" value="true" />
-    <param name="loop" value="true" />
-    <param name="wmode" value="window" />
-    <param name="scale" value="showall" />
-    <param name="menu" value="true" />
-    <param name="devicefont" value="false" />
-    <param name="salign" value="" />
-    <param name="allowScriptAccess" value="sameDomain" />
-    <a href="http://www.adobe.com/go/getflash">
-    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-    </a>
-    </object>
-    </video>
+        <p>From managing the creation of the NFL's Jacksonville Jaguars Broadcasting and Creative Services Department to a nationally recognized children's newsmagazine and long-form documentaries, Lisa tells inspiring stories about real people.</p>
 
-    animation https://www.kirupa.com/html5/simple_text_fade_and_scale_animation.html
+        <p>In addition, from wellness, fitness, and healthcare to the transportation industry, through online forums and live events, Lisa creates, motivates, celebrates, and facilitates positive change.</p>
 
-    <h1 class="animated">IDEAS</h1>
-    <h2 class="animated">Brought to Life</h2>
+        <details>
+        <summary>Check out some of Lisa's Awards.</summary>
+        <!--<h3>Awards</h3>-->
+        <ul>
+        <li>CINE Golden Eagle</li>
+        <li>Golden Apple, National Education Association (NEA)</li>
+        <li>Iris Award, National Association of Television Programming Executives (NAPTE)</li>
+        <li>Award of Excellence, Pennsylvania Association of Broadcasters (PAB) </li>
+        <li>International Telly Awards, 23 total</li>
+        </ul>
+        </details>
+        </article>
 
-    </div>-->
+        <div id="orangedivider">
+        <h3 id="what">Award Winning International Story Teller</h3>
+        <h4>Producing in diverse conditions from the Canadian Rockies to Caribbean cliffs.</h4>
 
-    <div id="orangedivider">
-    <h3 id="who">Video &nbsp;&nbsp; Print &nbsp;&nbsp; Online &nbsp;&nbsp; Live Event</h3>
-    <h4>Creating emotional connections with uplifting content.</h4>
-    </div>
+        <figure><img src="images/lisahuberweb.jpg" alt="Lisa Long in Canadian Rockies" title="Lisa Long in Canadian Rockies" width=960px/> </figure>
+        </div>
 
-    <side>
-    <p> <img src="images/lisastoop.jpg" alt="Lisa Long" title="Lisa Long" width=400px/></p>
+        <main>
 
-    <a class="fancybox fancybox.iframe" href="pdf/lisaresumewriter.pdf"><img src="images/resumebutton.jpg"  class="resumebutton" alt="Resume" title="Resume" width="200px"/></a>
+        <h3>Long Form Television Documentaries and Short Form Web-Based Content</h3>
+        <p>Click an image to play a video.</p>
 
-    <p><img src="images/grcolorlogo.png" class="logorightplace" alt="Garrison Ridge Logo" title="Garrison Ridge Logo" width=40px/></p>
-    </side>
+        <!--<ul class="fancybox-gallery">-->
+        <ul>
+        <li>
+        <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/I71Buf1Mtx8?rel=0"><img src="images/hikeclouds.jpg" alt="Hike to the Clouds" title="Hike to the Clouds" width=200px/></a>
+        </li>
+        <li>
+        <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/l_9-gSAc9I0?rel=0"><img src="images/goodforyou.jpg" alt="Exercise and Arthritis" title="Exercise and Arthritis" width=200px/></a>
+        </li>
+        <li>
+        <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/hbJ5Lm5wgDg?rel=0" frameborder="0"><img src="images/steppingstone.jpg" alt="Shot and Edited on an iPhone" title="Shot and Edited on an iPhone" width=200px/></a>
+        </li>
+        <li>
+        <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/XhMMtcvYx80?rel=0"><img src="images/birdseyeview.jpg" alt="Birds-Eye View" title="Birds-Eye View" width=200px/></a>
+        </li>
+        </ul>
 
-    <article>
-    <p>Garrison Ridge is a collection of creative talent led by Producer/Writer, Lisa Long. Since 1995, Garrison Ridge has created award-winning television and video programs as well as print and web products.</p>
+        <div id="orangedivider">
+        <h3>Clients</h3>
+        <p>American Association of Railroads, American Heritage Foundation, Baptist Health, Beaches Baptist Medical Center, Body Balance Yoga - School of Yoga Therapy, CSX, Elevated Movement, Green Relief, Jacksonville Jaguars, Jacksonville Children's Commission, Nemours Childrens Clinic, Operation Respond, SMART, SunTrust Banks, Swisher International, UTU, Washington Hospital Center, William Cook Agency, WTAJ-TV, WTLV-TV, WUSA-TV </p>
+        </div>
 
-    <p>From managing the creation of the NFL's Jacksonville Jaguars Broadcasting and Creative Services Department to a nationally recognized children's newsmagazine and long-form documentaries, Lisa tells inspiring stories about real people.</p>
+        <h3>Print Design - Handouts, Books, Manuals</h3>
+        <p>Click an image.</p>
 
-    <p>In addition, from wellness, fitness, and healthcare to the transportation industry, through online forums and live events, Lisa creates, motivates, celebrates, and facilitates positive change.</p>
+        <ul>
+        <li>
+        <a href="images/orangeinfographic.jpg" data-lightbox="print" data-title="Infographic for Print and Web"><img src="images/orangethumbnail.jpg" alt="Orange Infographic" title="Orange Infographic" width=200px/></a>
+        </li>
+        <li>
+        <a href="images/cossetlogo.png" data-lightbox="print" data-title="Logo Design"><img src="images/cossetthumbnail.jpg" alt="Cosset" title="Cosset" width=200px/></a>
 
-    <details>
-    <summary>Check out some of Lisa's Awards.</summary>
-    <!--<h3>Awards</h3>-->
-    <ul>
-    <li>CINE Golden Eagle</li>
-    <li>Golden Apple, National Education Association (NEA)</li>
-    <li>Iris Award, National Association of Television Programming Executives (NAPTE)</li>
-    <li>Award of Excellence, Pennsylvania Association of Broadcasters (PAB) </li>
-    <li>International Telly Awards, 23 total</li>
-    </ul>
-    </details>
-    </article>
+        </li>
+        <li>
+        <a href="images/breastcover.jpg" data-lightbox="print" data-title="Home Practice Manual"><img src="images/breastthumbnail.jpg" alt="Home Practice Manual" title="Home Practice Manual" width=200px/></a>
+        </li>
+        <li>
+        <a href="images/hangout.jpg" data-lightbox="print" data-title="Facebook Timeline Post"><img src="images/hangouthumbnail.jpg" alt="Facebook Timeline Post" title="Facebook Timeline Post" width=200px/></a>
+        </li>
+        </ul>
 
-    <div id="orangedivider">
-    <h3 id="what">Award Winning International Story Teller</h3>
-    <h4>Producing in diverse conditions from the Canadian Rockies to Caribbean cliffs.</h4>
+        <ul>
+        <li>
+        <a href="images/moodboardwhite.jpg" data-lightbox="print" data-title="Mood Board"><img src="images/moodthumbnail.jpg" alt="Mood Board" title="Mood Board" width=200px/></a>
+        </li>
+        <li>
+        <a href="images/happyfoodtruck.jpg" data-lightbox="print" data-title="Menu Design"><img src="images/happythumbnail.jpg" alt="Happy Food Truck" title="Happy Food Truck" width=200px/></a>
+        </li>
+        <li>
+        <a href="images/senseinfographic.jpg" data-lightbox="print" data-title="Sense Infographic"><img src="images/sensethumbnail.jpg" alt="Sense Infographic" title="Sense Infographic" width=200px/></a>
+        </li>
+        <li>
+        <a href="images/handoutthumbnail.jpg" data-lightbox="print" data-title="Hand Outs"><img src="images/handoutthumbnail.jpg" alt="Hand Outs" title="Hand Outs" width=200px/></a>
+        </li>
+        </ul>
+        </main>
 
-    <figure><img src="images/lisahuberweb.jpg" alt="Lisa Long in Canadian Rockies" title="Lisa Long in Canadian Rockies" width=960px/> </figure>
-    </div>
+        <a href= "mailto:garrisonridge@gmail.com">
+        <div id="hover">
+        </div>
+        </a>
 
-    <main>
+        <side id="how">
+        <div id="socialmedia" class="icons">
+        <a class="tumblr" href="http://lisalong.tumblr.com/" target="blank"></a>
+        <a class="pinterest" href="https://www.pinterest.com/lisaforma/" target="blank"></a>
+        <a class="blogger" href="http://ryt500.blogspot.com/" target="blank"></a>
+        </div>
+        <p>View Lisa's writing and communication design work on Social Media.</p>
+        </side>
 
-    <h3>Long Form Television Documentaries and Short Form Web-Based Content</h3>
-    <p>Click an image to play a video.</p>
+        <!--<a href=#emailform class="smoothScroll">
+        <div id="hover">
+        </div>
+        </a>
 
-    <!--<ul class="fancybox-gallery">-->
-    <ul>
-    <li>
-    <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/I71Buf1Mtx8?rel=0"><img src="images/hikeclouds.jpg" alt="Hike to the Clouds" title="Hike to the Clouds" width=200px/></a>
-    </li>
-    <li>
-    <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/l_9-gSAc9I0?rel=0"><img src="images/goodforyou.jpg" alt="Exercise and Arthritis" title="Exercise and Arthritis" width=200px/></a>
-    </li>
-    <li>
-    <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/hbJ5Lm5wgDg?rel=0" frameborder="0"><img src="images/steppingstone.jpg" alt="Shot and Edited on an iPhone" title="Shot and Edited on an iPhone" width=200px/></a>
-    </li>
-    <li>
-    <a class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/XhMMtcvYx80?rel=0"><img src="images/birdseyeview.jpg" alt="Birds-Eye View" title="Birds-Eye View" width=200px/></a>
-    </li>
-    </ul>
+        <div id="contact">
+        <a id="emailform"><h2>Send Us a Note!</h2></a>
 
-    <div id="orangedivider">
-    <h3>Clients</h3>
-    <p>American Association of Railroads, American Heritage Foundation, Baptist Health, Beaches Baptist Medical Center, Body Balance Yoga - School of Yoga Therapy, CSX, Elevated Movement, Green Relief, Jacksonville Jaguars, Jacksonville Children's Commission, Nemours Childrens Clinic, Operation Respond, SMART, SunTrust Banks, Swisher International, UTU, Washington Hospital Center, William Cook Agency, WTAJ-TV, WTLV-TV, WUSA-TV </p>
-    </div>
+        <form method="post" action="mailto:garrisonridge@gmail.com" id="contactform" name="contactform">
 
-    <h3>Print Design - Handouts, Books, Manuals</h3>
-    <p>Click an image.</p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
 
-    <ul>
-    <li>
-    <a href="images/orangeinfographic.jpg" data-lightbox="print" data-title="Infographic for Print and Web"><img src="images/orangethumbnail.jpg" alt="Orange Infographic" title="Orange Infographic" width=200px/></a>
-    </li>
-    <li>
-    <a href="images/cossetlogo.png" data-lightbox="print" data-title="Logo Design"><img src="images/cossetthumbnail.jpg" alt="Cosset" title="Cosset" width=200px/></a>
-
-    </li>
-    <li>
-    <a href="images/breastcover.jpg" data-lightbox="print" data-title="Home Practice Manual"><img src="images/breastthumbnail.jpg" alt="Home Practice Manual" title="Home Practice Manual" width=200px/></a>
-    </li>
-    <li>
-    <a href="images/hangout.jpg" data-lightbox="print" data-title="Facebook Timeline Post"><img src="images/hangouthumbnail.jpg" alt="Facebook Timeline Post" title="Facebook Timeline Post" width=200px/></a>
-    </li>
-    </ul>
-
-    <ul>
-    <li>
-    <a href="images/moodboardwhite.jpg" data-lightbox="print" data-title="Mood Board"><img src="images/moodthumbnail.jpg" alt="Mood Board" title="Mood Board" width=200px/></a>
-    </li>
-    <li>
-    <a href="images/happyfoodtruck.jpg" data-lightbox="print" data-title="Menu Design"><img src="images/happythumbnail.jpg" alt="Happy Food Truck" title="Happy Food Truck" width=200px/></a>
-    </li>
-    <li>
-    <a href="images/senseinfographic.jpg" data-lightbox="print" data-title="Sense Infographic"><img src="images/sensethumbnail.jpg" alt="Sense Infographic" title="Sense Infographic" width=200px/></a>
-    </li>
-    <li>
-    <a href="images/handoutthumbnail.jpg" data-lightbox="print" data-title="Hand Outs"><img src="images/handoutthumbnail.jpg" alt="Hand Outs" title="Hand Outs" width=200px/></a>
-    </li>
-    </ul>
-    </main>
-
-    <a href= "mailto:garrisonridge@gmail.com">
-    <div id="hover">
-    </div>
-    </a>
-
-    <side id="how">
-    <div id="socialmedia" class="icons">
-    <a class="tumblr" href="http://lisalong.tumblr.com/" target="blank"></a>
-    <a class="pinterest" href="https://www.pinterest.com/lisaforma/" target="blank"></a>
-    <a class="blogger" href="http://ryt500.blogspot.com/" target="blank"></a>
-    </div>
-    <p>View Lisa's writing and communication design work on Social Media.</p>
-    </side>
-
-    <!--<a href=#emailform class="smoothScroll">
-    <div id="hover">
-    </div>
-    </a>
-
-    <div id="contact">
-    <a id="emailform"><h2>Send Us a Note!</h2></a>
-
-    <form method="post" action="mailto:garrisonridge@gmail.com" id="contactform" name="contactform">
-
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" />
-
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" />
 
 
-    <h4>Comments</h4>
-    <textarea id="comments" name="comments">
-    </textarea>
+        <h4>Comments</h4>
+        <textarea id="comments" name="comments">
+        </textarea>
 
-    <input type="submit" id="submit" name="submit" value="Submit My Note"/>
-    </form>
-    </div> -->
+        <input type="submit" id="submit" name="submit" value="Submit My Note"/>
+        </form>
+        </div> -->
 
-    <footer>
-    <ul>
-    <li>&copy;2016 </li>
-    <li>Garrison Ridge</li>
-    <li>Jacksonville, FL </li>
-    </ul>
-    </footer>
+        <footer>
+        <ul>
+        <li>&copy;2017 </li>
+        <li>Garrison Ridge</li>
+        <li>Jacksonville, FL </li>
+        </ul>
+        </footer>
 
-    </div>
+        </div>
 
-    <!--this is for lightbox -->
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-    <script src="javascript/lightbox.js"></script>
+        <script src="../garrisonridge/fancybox/source/jquery.fancybox.pack.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/smoothscroll.js"></script>
 
+        <script src="js/main.js"></script>
     </body>
 
 </html>
