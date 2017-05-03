@@ -1,0 +1,512 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* HTML5 tags */
+
+article, aside, figcaption, figure, footer, header, nav, section, details, summary {
+    display:block;
+}
+
+/* body style */
+
+body {
+    background-color: #cccccc;
+    background-image: url('images/grcolorlogo.png');
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* header or headline title styles */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #F2F2F2;
+    font-family: 'PT Sans', sans-serif;
+    margin: 10px;
+}
+
+/* paragraph style */
+
+p {
+    color: #666666;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* container div */
+
+#container {
+    background-color: #FFFFFF;
+    width: 960px;
+    margin: auto;
+}
+
+/* header */
+
+header {
+    height: 180px;
+}
+
+header h3 {
+    color: #666666;
+    /*padding-top: 100px;
+    padding-left: 150px;*/
+    font-size: 36px;
+    text-decoration: none;
+}
+
+#headerlogo {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+#headername {
+    float: right;
+    padding-top: 100px;
+    padding-right: 610px;
+}
+
+/* nav */
+
+nav {
+    padding: 15px;
+    text-align: left;
+    background: #6633FF;
+    background: -webkit-linear-gradient(left, #6633FF, #33CCFF); /* from w3schools: For Safari 5.1 to 6.0 */
+      background: -moz-linear-gradient(right, #6633FF, #33CCFF ); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, #6633FF, #33CCFF); /* Standard syntax */
+      position: fixed;
+      top: 0;
+      z-index: 1500;
+      -webkit-border-radius: 0 0 20px 0;
+      -moz-border-radius: 0 0 20px 0;
+    border-radius: 0 0 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 18px;
+    font-family:'PT Sans', sans-serif;
+    text-decoration: none
+}
+
+nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+    color: #FFCC33;
+}
+
+#openpix {
+    clear:both;
+}
+
+
+/* main */
+
+main {
+    clear:both;
+    background: #333333;
+    background: -webkit-linear-gradient(left top, #333333, #999999); /* For Safari 5.1 to 6.0 */
+      background: -moz-linear-gradient(bottom right, #333333, #999999); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to bottom right, #333333, #999999); /* Standard syntax */
+      margin-top: -10px;
+      z-index: -20;
+}
+
+
+main h3 {
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+main h4 {
+    color: #F5F5F5;
+    padding-left: 30px;
+}
+
+main h5 {
+    color: #FF6633;
+    padding-left: 25px;
+}
+
+main p {
+    color: #F2F2F2;
+    padding-left: 30px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+/*main ul {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}*/
+
+/* below is for fancy box list to display horizontal */
+main ul {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+main ul li {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+/* background video
+
+#bvid {
+    width: 960px;
+}
+
+video #bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(images/garrisonridgepreview.jpg) no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+video {
+    display: block;
+}
+
+#openvid {
+    clear:both;
+      z-index: -20;
+}
+
+#openvid h1 {
+    font-size: 175px;
+    position: absolute;
+    z-index: 999;
+    left: 385px;
+    bottom: 300px;
+}
+
+#openvid h2 {
+    font-size: 100px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 999;
+    left: 300px;
+    bottom: 225px;
+}
+*/
+
+/* div id="orangedivider" */
+
+#orangedivider {
+    clear: both;
+    background: #FF6633;
+    margin-top: -10px;
+    margin-bottom: 0;
+      /*background: -webkit-linear-gradient(left, #FF6633, #FFCC33);
+      background: -moz-linear-gradient(right, #FF6633, #FFCC33);
+      background: linear-gradient(to right, #FF6633, #FFCC33); */
+}
+
+#orangedivider h3 {
+    font-size: 36px;
+    width: 885px;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#orangedivider h4 {
+    color: #F2F2F2;
+    font-size: 24px;
+    width: 885px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: -10px;
+}
+
+#orangedivider p {
+    color: #F2F2F2;
+    margin-top: -10px;
+    width: 885px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+
+}
+
+#orangedivider img {
+    vertical-align: bottom;
+}
+
+/* article */
+
+article {
+    width: 440px;
+    padding-top: 55px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+article h1, h2 {
+    color: #666666;
+    text-align: center;
+}
+
+article p {
+    font-size: 20px;
+}
+
+/* side */
+
+side {
+    width: 440px;
+    float: right;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+side p {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+/* summary details */
+summary {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: #666666;
+    outline: none;
+}
+
+details ul li {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 16px;
+    color: #666666;
+    margin-left: 20px;
+}
+
+details {
+    margin-left: 20px;
+}
+
+/* footer */
+
+footer  {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer ul li {
+    color: #666666;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-decoration: none;
+}
+
+/* image border styles */
+
+.img-roundborder {
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+/* resume button */
+.resumebutton {
+    padding-left: 10px;
+    margin-top: -17px;
+    -webkit-border-radius: 0px 0px 30px 0px;
+    -moz-border-radius: 0px 0px 30px 0px;
+    border-radius: 0px 0px 30px 0px;
+}
+
+/* image hover effect */
+
+#hover {
+    clear:both;
+    background-image: url('../images/panohiketext.jpg');
+    /* because #hover div is empty, must add height and width - if  have width remember can use margin auto to center within */
+    height: 213px;
+    width: 960px;
+}
+
+#hover:hover {
+    background-image: url('../images/panohikebwlogo.jpg');
+}
+
+/* contact form */
+
+#contact {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px 0px 15px 0px;
+    -webkit-box-shadow: 5px 5px 5px 5px #474747;
+    -moz-box-shadow: 5px 5px 5px 5px #474747;
+    box-shadow: 5px 5px 5px 5px #474747;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+label, h4 {
+    display: block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    border-radius: 15px 0px 15px 0px;
+    border: 2px solid grey;
+    width: 400px;
+    padding: 2px;
+}
+
+textarea {
+    border: 2px solid grey;
+    padding: 2px;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px 0px 15px 0px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #FF6633;
+    /*border: solid 2px #666600;*/
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px 0px 15px 0px;
+    width: 400px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    color: #f5f5f5;
+}
+
+/* social media */
+
+#socialmedia {
+    clear:both;
+    padding-right: 40px;
+}
+
+.icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    vertical-align: middle;
+    float: right;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+
+.icons a.blogger {
+    background: url('../images/blogger.png') left top no-repeat;
+}
+
+.icons a.pinterest {
+    background: url('../images/pinterest.png') left top no-repeat;
+}
+
+.icons a.tumblr {
+    background: url('../images/tumblr.png') left top no-repeat;
+}
+
+.icons a:hover {
+    background-position: left -34px;
+}
+
+/* small logo placement bottom right*/
+
+.logorightplace {
+    padding-left: 350px;
+}
+
+/* title animations */
+
+.animated {
+    animation-duration: 5s;
+    animation-name: fadeandscale;
+    animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+}
+
+/*.animateddelay {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-name: fadeandscale;
+    animation-fill-mode: backwards;
+    animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+    visibility: hidden;
+}*/
+
+@keyframes fadeandscale {
+    from {
+        opacity:0;
+        transform: scale(.9,.9);
+    }
+    to {
+        opacity:1;
+        transform: scale(1, 1);
+    }
+}
