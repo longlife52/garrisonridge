@@ -37,17 +37,19 @@ h3,
 h4,
 h5,
 h6 {
-    color: #F2F2F2;
+    color: #F5F3Fd;
     font-family: 'PT Sans', sans-serif;
-    margin: 10px;
+    /*
+    margin: 0.625em;
+    */
 }
 
 /* paragraph style */
 p {
     color: #666666;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 16px;
-    margin: 10px;
+    font-size: 1em;
+    margin: 0.625em;
 }
 
 /* for html outliner for nav */
@@ -73,25 +75,24 @@ p {
     background: #aaaaaa;
     width: 100%;
     text-align: center;
-    padding: 0.325em 0 0.35em 0;
+    padding: 0.325em 0 0.35em 1.25em;
 }
 
 #hamburger {
     position: absolute;
-    background: #c09f89;
+    background: #aaaaaa;
 }
 
 
 /* header */
+/*
 header {
     height: 180px;
 }
 
 header h3 {
     color: #666666;
-    /*padding-top: 100px;
-    padding-left: 150px;*/
-    font-size: 36px;
+    font-size: 2em;
     text-decoration: none;
 }
 
@@ -105,15 +106,16 @@ header h3 {
     padding-top: 100px;
     padding-right: 610px;
 }
+*/
 
-/* nav */
+/*
 nav {
     padding: 15px;
     text-align: left;
     background: #6633FF;
-    background: -webkit-linear-gradient(left, #6633FF, #33CCFF); /* from w3schools: For Safari 5.1 to 6.0 */
-      background: -moz-linear-gradient(right, #6633FF, #33CCFF ); /* For Firefox 3.6 to 15 */
-      background: linear-gradient(to right, #6633FF, #33CCFF); /* Standard syntax */
+    background: -webkit-linear-gradient(left, #6633FF, #33CCFF);
+      background: -moz-linear-gradient(right, #6633FF, #33CCFF );
+      background: linear-gradient(to right, #6633FF, #33CCFF);
       position: fixed;
       top: 0;
       z-index: 1500;
@@ -143,11 +145,11 @@ nav ul li a:link, nav ul li a:visited {
 nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
     color: #FFCC33;
 }
+*/
 
 #openpix {
     clear:both;
 }
-
 
 /* main */
 
@@ -160,7 +162,6 @@ main {
       margin-top: -10px;
       z-index: -20;
 }
-
 
 main h3 {
     padding-top: 25px;
