@@ -1,3 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Clear Fix */
+
+/* add the class .group in html to floated elements */
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+* html .group
 /* reset */
 *{
     padding: 0;
@@ -6,32 +26,23 @@
 }
 
 /* HTML5 tags */
-
 article, aside, figcaption, figure, footer, header, nav, section, details, summary {
     display:block;
 }
 
-/* body style */
-
-body {
-    background-color: #cccccc;
-    background-image: url('images/grcolorlogo.png');
-    /*background-repeat: no-repeat;*/
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-}
-
 /* header or headline title styles */
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #F2F2F2;
     font-family: 'PT Sans', sans-serif;
     margin: 10px;
 }
 
 /* paragraph style */
-
 p {
     color: #666666;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -39,16 +50,18 @@ p {
     margin: 10px;
 }
 
-/* container div */
+/* for html outliner for nav */
+.hide {
+    display: none;
+}
 
-#container {
-    background-color: #FFFFFF;
-    width: 960px;
+.container {
+    background: #f5f3fd;
     margin: auto;
+    max-width: 950px;
 }
 
 /* header */
-
 header {
     height: 180px;
 }
@@ -73,7 +86,6 @@ header h3 {
 }
 
 /* nav */
-
 nav {
     padding: 15px;
     text-align: left;
