@@ -164,6 +164,60 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
     width: 100%;
 }
 
+.round-image {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: solid 0.625em #ff6600;
+}
+
+/* article */
+
+article {
+    padding: 3.4375em 1.5625em 1.5625em 1.5625em;
+}
+
+article h1, h2 {
+    color: #666666;
+    text-align: center;
+}
+
+article p {
+    font-size: 20px;
+}
+
+/* aside */
+aside {
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+aside p {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+/* summary details */
+summary {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: #666666;
+    outline: none;
+}
+
+details ul li {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 16px;
+    color: #666666;
+    margin-left: 20px;
+}
+
+details {
+    margin-left: 20px;
+}
+
 /* main */
 
 main {
@@ -266,59 +320,7 @@ main ul li {
     vertical-align: bottom;
 }
 
-/* article */
 
-article {
-    width: 440px;
-    padding-top: 55px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-}
-
-article h1, h2 {
-    color: #666666;
-    text-align: center;
-}
-
-article p {
-    font-size: 20px;
-}
-
-/* aside */
-
-aside {
-    width: 440px;
-    float: right;
-    padding-top: 50px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-}
-
-aside p {
-    font-size: 18px;
-    margin-top: -10px;
-}
-
-/* summary details */
-summary {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 20px;
-    color: #666666;
-    outline: none;
-}
-
-details ul li {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 16px;
-    color: #666666;
-    margin-left: 20px;
-}
-
-details {
-    margin-left: 20px;
-}
 
 /* footer */
 
