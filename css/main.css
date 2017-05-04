@@ -396,6 +396,14 @@ main ul li {
     color: #f5f3fd;
 }
 
+#scrollUp {
+    bottom: 1em;
+    right: 1em;
+    padding: 0.5em 1em;
+    background: #aaaaaa;
+    color: #f5f3fd;
+    text-decoration: none;
+}
 
 /* footer */
 
