@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
+    //backstretch
+    $.backstretch('images/white-wood.png');
 
     //mmenu
         $('#menu').mmenu({
