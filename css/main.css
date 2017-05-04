@@ -18,6 +18,7 @@ html {
 }
 
 * html .group
+
 /* reset */
 *{
     padding: 0;
@@ -83,6 +84,18 @@ p {
     background: #aaaaaa;
 }
 
+#title h3 {
+    color: #062f4f;
+    text-align: center;
+}
+
+#intro img {
+    padding-top: 8em;
+}
+
+#logo {
+    text-align: center;
+}
 
 /* header */
 /*
@@ -147,8 +160,9 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
 }
 */
 
-#openpix {
-    clear:both;
+#openpix img{
+    height: auto;
+    width: 100%;
 }
 
 /* main */
@@ -208,86 +222,35 @@ main ul li {
         padding-right: 10px;
 }
 
-/* background video
-
-#bvid {
-    width: 960px;
-}
-
-video #bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(images/garrisonridgepreview.jpg) no-repeat;
-    background-size: cover;
-    z-index: -1;
-}
-
-video {
-    display: block;
-}
-
-#openvid {
-    clear:both;
-      z-index: -20;
-}
-
-#openvid h1 {
-    font-size: 175px;
-    position: absolute;
-    z-index: 999;
-    left: 385px;
-    bottom: 300px;
-}
-
-#openvid h2 {
-    font-size: 100px;
-    color: #FFFFFF;
-    position: absolute;
-    z-index: 999;
-    left: 300px;
-    bottom: 225px;
-}
-*/
-
 /* div id="orangedivider" */
-
-.orangedivider {
-    clear: both;
-    background: #FF6633;
+.bluedivider {
+    background: #062f4f;
     margin-top: -10px;
     margin-bottom: 0;
-      /*background: -webkit-linear-gradient(left, #FF6633, #FFCC33);
-      background: -moz-linear-gradient(right, #FF6633, #FFCC33);
-      background: linear-gradient(to right, #FF6633, #FFCC33); */
 }
 
-.orangedivider h3 {
-    font-size: 36px;
-    width: 885px;
-    margin-top: 0;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+/* div id="orangedivider" */
+.orangedivider {
+    background: #ff6600;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.orangedivider h3,
+.bluedivider h3 {
+    font-size: 2em;
+    margin: 0;
+    padding: 1.5625em 1.5625em 1.5635em 1.5635em;
 }
 
 .orangedivider h4 {
     color: #F2F2F2;
     font-size: 24px;
-    width: 885px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
     margin-top: -10px;
+    text-align: center;
 }
 
 .orangedivider p {
