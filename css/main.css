@@ -199,6 +199,30 @@ aside p {
     margin-top: -10px;
 }
 
+/* award box */
+
+#awardbox {
+    background-color: #f5f5f5;
+}
+
+#awardpix img {
+    width: 100%;
+}
+
+#awards ul {
+    margin: auto;
+}
+
+#awards p:last-of-type {
+    padding-bottom: 1em;
+}
+
+#awards h3 {
+    margin: 0.625em 0 0.625em 0;
+    color: #062f4f;
+    text-align: center;
+}
+
 /* summary details */
 summary {
     font-family: 'PT Sans Narrow', sans-serif;
