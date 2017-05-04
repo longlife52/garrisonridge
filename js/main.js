@@ -26,6 +26,9 @@ $(document).ready(function() {
             mainMenu.open();
         });
 
+        //owlcarousel
+        $('.owl-carousel').owlCarousel();
+
         //for fancybox
         $('.fancybox').fancybox({
             openEffect: 'elastic',
