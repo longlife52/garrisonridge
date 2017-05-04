@@ -40,9 +40,6 @@ h5,
 h6 {
     color: #F5F3Fd;
     font-family: 'PT Sans', sans-serif;
-    /*
-    margin: 0.625em;
-    */
 }
 
 /* paragraph style */
@@ -87,6 +84,8 @@ p {
 #title h3 {
     color: #062f4f;
     text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 2em;
 }
 
 #intro img {
