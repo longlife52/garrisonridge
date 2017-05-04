@@ -174,7 +174,7 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
     border-radius: 50%;
     display: block;
     margin: auto;
-    border: solid 0.625em #ff6600;
+    border: solid 0.625em #71afb5;
 }
 
 .front {
@@ -405,7 +405,7 @@ main ul li {
     text-decoration: none;
 }
 
-.video-strip img {
+.video img {
     width: 100%;
     height: auto;
 }
