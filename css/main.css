@@ -177,6 +177,13 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
     border: solid 0.625em #ff6600;
 }
 
+.front {
+    padding-top: 3em;
+}
+
+.greenbox
+
+
 /* article */
 
 article {
@@ -324,6 +331,7 @@ main ul li {
     font-size: 2em;
     margin: 0;
     padding: 1.5625em 1.5625em 1.5635em 1.5635em;
+    font-weight: 400;
 }
 
 .orangedivider h4 {
