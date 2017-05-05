@@ -217,7 +217,8 @@ aside p {
 #awardpix img,
 #resumebutton img,
 #code img,
-.print img {
+.print img,
+#reach-me img {
     width: 100%;
     height:auto;
 }
