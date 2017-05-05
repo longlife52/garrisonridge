@@ -216,7 +216,8 @@ aside p {
 
 #awardpix img,
 #resumebutton img,
-#code img {
+#code img,
+.print img {
     width: 100%;
     height:auto;
 }
@@ -393,7 +394,8 @@ main ul li {
     text-decoration: none;
 }
 
-#video-block h4 {
+#video-block h4,
+#print-block h4 {
     color: #666666;
     font-size: 2em;
     font-weight: 400;
