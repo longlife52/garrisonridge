@@ -234,25 +234,6 @@ aside p {
     text-align: center;
 }
 
-/* summary details */
-summary {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 20px;
-    color: #666666;
-    outline: none;
-}
-
-details ul li {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 16px;
-    color: #666666;
-    margin-left: 20px;
-}
-
-details {
-    margin-left: 20px;
-}
-
 /* main */
 
 main {
@@ -405,13 +386,21 @@ main ul li {
     text-decoration: none;
 }
 
+#video-block h4 {
+    color: #666666;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+    padding-left: 0;
+}
+
 .video img {
     width: 100%;
     height: auto;
 }
 
 /* footer */
-
 footer  {
     clear: both;
     text-align: center;
