@@ -215,9 +215,16 @@ aside p {
 }
 
 #awardpix img,
-#resumebutton img {
+#resumebutton img,
+#code img {
     width: 100%;
     height:auto;
+}
+
+#code-words h3 {
+    color: #062f4f;
+    font-weight: 400;
+    text-align: center;
 }
 
 #awards ul {
