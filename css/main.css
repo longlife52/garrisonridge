@@ -124,51 +124,6 @@ p {
 }
 */
 
-/* award box */
-#awardbox {
-    background-color: #f5f5f5;
-}
-
-.openpix img,
-#awardpix img,
-#resumebutton img,
-#code img,
-.print img,
-#reach-me img {
-    width: 100%;
-    height:auto;
-}
-
-#code-words {
-    padding-top: 2em;
-}
-
-#code-words h3 {
-    color: #062f4f;
-    font-weight: 400;
-    text-align: center;
-}
-
-#code-words p {
-    color: #062f4f;
-}
-
-#image-carousel {
-    background: #f5f3fd;
-}
-
-#awards p:last-of-type {
-    padding-bottom: 3em;
-}
-
-#awards h3 {
-    margin: 0.625em 0 0.625em 0;
-    color: #062f4f;
-    text-align: center;
-    font-weight: 400;
-    padding-top: 2em;
-}
-
 /* div id="bluedivider" */
 .bluedivider {
     /*
@@ -197,7 +152,66 @@ p {
     font-weight: 400;
 }
 
-/* lisa bio */
+.paragraph-endspace {
+    padding-bottom: 3em;
+    margin-bottom: 0;
+}
+
+/* ghost button */
+.button-box {
+    padding-bottom: 3em;
+}
+
+.ghost-button {
+    display: inline-block;
+    width: 12.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: #f5f3fd;
+    border: 0.1875em solid #f5f3fd;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #f5f3fd;
+    color: #062f4f;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+/* images */
+.openpix img,
+#awardpix img,
+#resumebutton img,
+#code img,
+.print img,
+#reach-me img {
+    width: 100%;
+    height:auto;
+}
+
+/* code block */
+#code-words {
+    padding-top: 2em;
+}
+
+#code-words h3 {
+    color: #062f4f;
+    font-weight: 400;
+    text-align: center;
+}
+
+#code-words p {
+    color: #062f4f;
+}
+
+/*image carousel */
+#image-carousel {
+    background: #f5f3fd;
+}
 
 /*
 .img-roundborder {
@@ -207,6 +221,7 @@ p {
 }
 */
 
+/* lisa bio */
 #headshot {
     margin-top: -0.25em;
     padding-top: 5em;
@@ -247,11 +262,23 @@ p {
     padding-top: 2em;
 }
 
-.paragraph-endspace {
+/* awards */
+#awardbox {
+    background-color: #f5f5f5;
+}
+#awards p:last-of-type {
     padding-bottom: 3em;
-    margin-bottom: 0;
 }
 
+#awards h3 {
+    margin: 0.625em 0 0.625em 0;
+    color: #062f4f;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 2em;
+}
+
+/* clients */
 #clients h3 {
     padding: 1em 0 0 0;
     text-align: center;
@@ -261,6 +288,7 @@ p {
     color: #f5f3fd;
 }
 
+/* scroll up */
 #scrollUp {
     bottom: 1em;
     right: 1em;
@@ -270,6 +298,7 @@ p {
     text-decoration: none;
 }
 
+/* video + print portfolios */
 #video-block h4,
 #print-block h4 {
     color: #666666;
@@ -299,30 +328,6 @@ footer p {
 
 #contact h3 {
     padding-bottom: 0;
-}
-
-.button-box {
-    padding-bottom: 3em;
-}
-
-.ghost-button {
-    display: inline-block;
-    width: 12.5em;
-    font-weight: bold;
-    padding: 0.5em;
-    color: #f5f3fd;
-    border: 0.1875em solid #f5f3fd;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    transition: background-color 0.2s ease-out, color 0.2s ease-out;
-}
-
-.ghost-button:hover,
-.ghost-button:active {
-    background-color: #f5f3fd;
-    color: #062f4f;
-    transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
 /* social media */
