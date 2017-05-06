@@ -1,3 +1,15 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* HTML5 tags */
+article, aside, figcaption, figure, footer, header, nav, section, details, summary {
+    display:block;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -18,18 +30,6 @@ html {
 
 * html .group
 
-/* reset */
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
-/* HTML5 tags */
-article, aside, figcaption, figure, footer, header, nav, section, details, summary {
-    display:block;
-}
-
 /* header or headline title styles */
 h1,
 h2,
@@ -39,6 +39,11 @@ h5,
 h6 {
     color: #F5F3Fd;
     font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    color: #666666;
+    text-align: center;
 }
 
 /* paragraph style */
@@ -71,6 +76,7 @@ p {
 #topheader h1 {
     font-size: 2em;
     font-weight: 400;
+    font-family: 'Lato', sans-serif;
     color: #f5f3fd;
     background: #aaaaaa;
     width: 100%;
@@ -126,19 +132,6 @@ p {
 
 .front {
     padding-top: 3em;
-}
-
-article {
-    padding: 3.4375em 1.5625em 1.5625em 1.5625em;
-}
-
-article h1, h2 {
-    color: #666666;
-    text-align: center;
-}
-
-article p {
-    font-size: 20px;
 }
 
 /* award box */
@@ -290,9 +283,9 @@ footer p {
 
 /* image border styles */
 .img-roundborder {
-    -webkit-border-radius: 30px 0px 30px 0px;
-    -moz-border-radius: 30px 0px 30px 0px;
-    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 1.875em 0 1.875em 0;
+    -moz-border-radius: 1.875em 0 1.875em 0;
+    border-radius: 1.875em 0 1.875em 0;
 }
 
 /* social media */
@@ -640,5 +633,21 @@ main {
      background: linear-gradient(to bottom right, #333333, #999999);
      margin-top: -10px;
      z-index: -20;
+}
+*/
+
+/*
+
+article {
+    padding: 3.4375em 1.5625em 1.5625em 1.5625em;
+}
+
+article h1, h2 {
+    color: #666666;
+    text-align: center;
+}
+
+article p {
+    font-size: 1.25em;
 }
 */
