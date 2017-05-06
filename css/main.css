@@ -182,6 +182,26 @@ p {
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
+.ghost-button-two {
+    display: inline-block;
+    width: 12.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: #71afb5;
+    border: 0.1875em solid #71afb5;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button-two:hover,
+.ghost-button-two:active {
+    background-color: #71afb5;
+    color: #f5f3fd;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
 /* images */
 .openpix img,
 #awardpix img,
