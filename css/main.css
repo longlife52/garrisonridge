@@ -284,7 +284,7 @@ footer  {
 
 footer p {
     color: #f5f3fd;
-    padding-top: 5em;
+    padding-top: 2em;
     font-size: 0.625em;
 }
 
@@ -297,17 +297,16 @@ footer p {
 
 /* social media */
 #socialmedia {
-    clear:both;
-    padding-right: 40px;
+    padding: 2em 0 3em 0;
+    text-align: center;
 }
 
 .icons a {
     display: inline-block;
-    width: 24px;
-    height: 24px;
-    margin: 10px;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.625em;
     vertical-align: middle;
-    float: right;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
 }
@@ -325,7 +324,7 @@ footer p {
 }
 
 .icons a:hover {
-    background-position: left -34px;
+    background-position: left -2.125em;
 }
 
 /* small logo placement bottom right
