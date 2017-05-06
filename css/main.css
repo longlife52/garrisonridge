@@ -97,7 +97,7 @@ p {
     color: #062f4f;
     text-align: center;
     margin-bottom: 0;
-    padding-bottom: 2em;
+    padding: 0.5em 0 2em 0;
     font-weight: 400;
 }
 
@@ -115,8 +115,8 @@ p {
 
 #logo {
     text-align: center;
+    padding-bottom: 2em;
 }
-
 
 #openpix img{
     height: auto;
@@ -166,10 +166,6 @@ p {
     background: #f5f3fd;
 }
 
-#awards ul {
-    margin: auto;
-}
-
 #awards p:last-of-type {
     padding-bottom: 3em;
 }
@@ -178,6 +174,8 @@ p {
     margin: 0.625em 0 0.625em 0;
     color: #062f4f;
     text-align: center;
+    font-weight: 400;
+    padding-top: 2em;
 }
 
 /* div id="bluedivider" */
@@ -188,6 +186,10 @@ p {
     background: rgba(6, 47, 79, 0.8);
     margin-top: -0.625em;
     margin-bottom: 0;
+}
+
+.blue-space {
+    margin-top: 3em;
 }
 
 .greendivider {
@@ -212,6 +214,7 @@ p {
 {
     font-weight: 400;
     margin-bottom: 0.25em;
+    padding-top: 1em;
 }
 
 #aboutlisa {
@@ -649,5 +652,11 @@ article h1, h2 {
 
 article p {
     font-size: 1.25em;
+}
+*/
+
+/*
+#awards ul {
+    margin: auto;
 }
 */
