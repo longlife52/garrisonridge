@@ -118,16 +118,11 @@ p {
     padding-bottom: 2em;
 }
 
-.round-image {
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    border: solid 0.625em #666666;
-}
-
+/*
 .front {
     padding-top: 3em;
 }
+*/
 
 /* award box */
 #awardbox {
@@ -202,11 +197,33 @@ p {
     font-weight: 400;
 }
 
+/* lisa bio */
+
+/*
+.img-roundborder {
+    -webkit-border-radius: 1.875em 0 1.875em 0;
+    -moz-border-radius: 1.875em 0 1.875em 0;
+    border-radius: 1.875em 0 1.875em 0;
+}
+*/
+
+#headshot {
+    margin-top: -0.25em;
+    padding-top: 5em;
+}
+
+.round-image {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: solid 0.625em #666666;
+}
+
 #lisabio {
     background: #f5f3fd;
 }
 
-#bio h2
+#headshot h2
 {
     font-weight: 400;
     margin-bottom: 0.25em;
@@ -217,7 +234,7 @@ p {
     background: #f5f3fd;
 }
 
-#bio h3,
+#headshot h3,
 #aboutlisa h3 {
     font-weight: 400;
     color: #062f4f;
@@ -280,13 +297,6 @@ footer p {
     font-size: 0.625em;
 }
 
-/* image border styles */
-.img-roundborder {
-    -webkit-border-radius: 1.875em 0 1.875em 0;
-    -moz-border-radius: 1.875em 0 1.875em 0;
-    border-radius: 1.875em 0 1.875em 0;
-}
-
 #contact h3 {
     padding-bottom: 0;
 }
@@ -347,6 +357,7 @@ footer p {
     background-position: left -2.125em;
 }
 
+/*media queries */
 @media (min-width: 500px) {
     .box-one {
         float: left;
@@ -358,6 +369,10 @@ footer p {
         float: right;
         width: 50%;
         padding-left: 0.08em;
+    }
+
+    #bio {
+        padding-top: 5em;
     }
 }
 
