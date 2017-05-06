@@ -347,6 +347,20 @@ footer p {
     background-position: left -2.125em;
 }
 
+@media (min-width: 500px) {
+    .box-one {
+        float: left;
+        width: 50%;
+        padding-right: 0.08em;
+        }
+
+    .box-two {
+        float: right;
+        width: 50%;
+        padding-left: 0.08em;
+    }
+}
+
 /* small logo placement bottom right
 
 .logorightplace {
