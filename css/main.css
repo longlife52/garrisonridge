@@ -99,6 +99,10 @@ p {
     background: rgba(245, 243, 253, 0.8);
 }
 
+.center-text {
+    text-align: center;
+}
+
 #intro img {
     padding-top: 8em;
 }
