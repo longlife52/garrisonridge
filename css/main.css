@@ -291,6 +291,34 @@ footer p {
     border-radius: 1.875em 0 1.875em 0;
 }
 
+#contact h3 {
+    padding-bottom: 0;
+}
+
+.button-box {
+    padding-bottom: 3em;
+}
+
+.ghost-button {
+    display: inline-block;
+    width: 12.5em;
+    font-weight: bold;
+    padding: 0.5em;
+    color: #f5f3fd;
+    border: 0.1875em solid #f5f3fd;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #f5f3fd;
+    color: #062f4f;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
 /* social media */
 #socialmedia {
     padding: 2em 0 3em 0;
