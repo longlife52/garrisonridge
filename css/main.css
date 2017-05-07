@@ -394,9 +394,13 @@ footer  {
 }
 
 footer p {
-    color: #f5f3fd;
+    color: #062f4f;
     padding-top: 2em;
     font-size: 0.625em;
+}
+
+#contact {
+    margin-top: 3em;
 }
 
 #contact h3 {
