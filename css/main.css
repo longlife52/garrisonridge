@@ -66,10 +66,12 @@ p {
     margin: auto;
     max-width: 950px;
 }
+
 /* Header and Logo */
 .header-container {
     position: fixed;
     width: 100%;
+    max-width: 950px;
     z-index: 1000;
 }
 
@@ -89,6 +91,7 @@ p {
     background: #aaaaaa;
 }
 
+/* intro */
 #title h2 {
     font-weight: 400;
 }
@@ -152,9 +155,16 @@ p {
     font-weight: 400;
 }
 
+#endspace,
 .paragraph-endspace {
     padding-bottom: 3em;
     margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+    #endspace {
+        padding-bottom: 0;
+    }
 }
 
 /* ghost button */
@@ -228,6 +238,18 @@ p {
     color: #062f4f;
 }
 
+@media (min-width: 660px) {
+    #code-words h3 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 740px) {
+    #code-words p {
+        font-size: 1.5em;
+    }
+}
+
 /*image carousel */
 #image-carousel {
     background: #f5f3fd;
@@ -278,6 +300,7 @@ p {
 #awardbox {
     background-color: #f5f5f5;
 }
+
 #awards p:last-of-type {
     padding-bottom: 3em;
 }
@@ -288,6 +311,35 @@ p {
     text-align: center;
     font-weight: 400;
     padding-top: 2em;
+}
+
+@media (min-width: 500px) {
+    #awards p:last-of-type {
+        padding-bottom: 0;
+    }
+
+    #awards h3 {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 600px) {
+    #awards h3 {
+        padding-top: 1em;
+    }
+}
+
+@media (min-width: 700px) {
+    #awards h3 {
+        font-size: 2em;
+        padding-top: 0.5em;
+    }
+}
+
+@media (min-width: 825px) {
+    #awards p {
+        font-size: 1.5em;
+    }
 }
 
 /* clients */

@@ -54,3 +54,16 @@ $(document).ready(function() {
 
 
 });
+
+/* custom jQuery code on index.html page
+that when hovered/mouseover - image changes
+on mouseout - image returns to original. Used
+for hover on resume button. id is placed on img
+*/
+    $('#resume').mouseover(function () {
+        $(this).attr('src', 'images/resumebuttongreen.png');
+    });
+
+    $('#resume').mouseout(function () {
+        $(this).attr('src', 'images/pdf-button.png');
+    });
