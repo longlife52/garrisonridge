@@ -233,14 +233,6 @@ p {
     background: #f5f3fd;
 }
 
-/*
-.img-roundborder {
-    -webkit-border-radius: 1.875em 0 1.875em 0;
-    -moz-border-radius: 1.875em 0 1.875em 0;
-    border-radius: 1.875em 0 1.875em 0;
-}
-*/
-
 /* lisa bio */
 #headshot {
     margin-top: -0.25em;
@@ -251,7 +243,7 @@ p {
     border-radius: 50%;
     display: block;
     margin: auto;
-    border: solid 0.625em #666666;
+    border: solid 0.625em #71afb5;
 }
 
 #lisabio {
