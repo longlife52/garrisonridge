@@ -41,7 +41,10 @@ $(document).ready(function() {
         });
 
         //owlcarousel
-        $('.owl-carousel').owlCarousel();
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            loop: true,
+        });
 
         //for fancybox
         $('.fancybox').fancybox({
