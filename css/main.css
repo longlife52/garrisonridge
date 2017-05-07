@@ -238,6 +238,10 @@ p {
     color: #062f4f;
 }
 
+#codeborder {
+    border-top: #71afb5 3em solid;
+}
+
 @media (min-width: 660px) {
     #code-words h3 {
         font-size: 2em;
@@ -253,6 +257,11 @@ p {
 /*image carousel */
 #image-carousel {
     background: #f5f3fd;
+}
+
+.carousel-border {
+        border-top: #71afb5 3em solid;
+        margin-top: -1em;
 }
 
 /* lisa bio */
